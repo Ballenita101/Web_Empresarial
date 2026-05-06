@@ -1,4 +1,4 @@
-from werkzeug.utils import secure_filename
+from werkzeug.utils import secure_filename # pyright: ignore[reportMissingImports]
 
 ALLOWED_EXTENSIONS = {'pdf', 'docx', 'txt' , 'xlsx' , 'txt'}
 
